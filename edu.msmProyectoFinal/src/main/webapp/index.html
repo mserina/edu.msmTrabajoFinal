@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"  content="width=device-width, initial-scale=1">
+	<meta name="author" content="MSM">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="custom.css">
+	<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+		crossorigin="anonymous">
+</head>
+
+<body>
+
+	
+<header>
+	<nav class="navbar navbar-expand-sm bg-warning fixed-top">
+		<div class="container-fluid">
+			<!-- LOGO -->
+			<a class="navbar-brand" href="index.html"><img class="img-fluid, kanji" src="imagenesHtml/Kanji_Muten_Roshi.png"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span></button>
+			
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<div class="justify-content-center ">
+					<ul class="navbar-nav">
+					 	
+					 	<li class="nav-item dropdown">
+					      	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PERSONAJES</a>
+					      	<ul class="dropdown-menu">
+					         	<li><a class="dropdown-item" href="producto1.html">Goku</a></li>
+					         	<li><a class="dropdown-item" href="producto2.html">Vegeta</a></li>
+					         	<li><a class="dropdown-item" href="producto5.html">Gohan</a></li>
+					     	</ul>
+						 </li>
+					        
+						 <li class="nav-item dropdown">
+					   		 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">VILLANOS</a>
+					    	<ul class="dropdown-menu">
+					          	<li><a class="dropdown-item" href="producto7.html">Freeza</a></li>
+					          	<li><a class="dropdown-item" href="producto8.html">Majin buu</a></li>
+					          	<li><a class="dropdown-item" href="producto9.html">Cell</a></li>
+					  	    </ul>
+					 	</li>
+					        
+						<li class="nav-item dropdown">
+					   		 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">TRANSFORMACIONES</a>
+					     	<ul class="dropdown-menu">
+					           <li><a class="dropdown-item" href="producto13.html">Goku SSJ</a></li>
+					   		   <li><a class="dropdown-item" href="producto14.html">Goku SSJ3</a></li>
+					    	   <li><a class="dropdown-item" href="producto15.html">Goku SSJ4</a></li>
+					 	   </ul>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="d-flex">
+					<div class="d-flex">
+						<a class="btn btn-outline-success me-2" href="paginaCompra.html" role="button"><i class="bi bi-cart4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16"> <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" /> </svg></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+	
+	<!-- CAROUSEL -->
+	
+	<div class="carouselRow">
+		<div class=" colonia col-12">
+			<!--creacion carrusel -->
+			<div id="demo" class="carousel slide" data-bs-ride="carousel">
+				<!--imagenes carrusel-->
+				<div class="carousel-inner">
+					<div class="carousel-item active " data-bs-interval="3000">
+						<img src="imagenesHtml/banner1.jpg" alt="imagen1" class="d-block" style="width: 100%">
+					</div>
+					<div class="carousel-item" data-bs-interval="3000">
+						<img src="imagenesHtml/banner 2.png" alt="imagen2" class="d-block" style="width: 100%">
+					</div>
+					<div class="carousel-item" data-bs-interval="3000">
+						<img src="imagenesHtml/banner3.jpg" alt="imagen3" class="d-block" style="width: 100%">
+					</div>
+				</div>
+				<!-- botones derecha e izquierda carrusel -->
+				<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+
+	<!--MAIN-->
+	<main>
+		<!--MENULATERAL-->
+		<div class="row">
+			<div class="col-12 titulo2 text-center">
+				<hr>
+				<h2 id="personajes">PERSONAJES</h2>
+				<hr>
+			</div>
+		</div>
+		<div class="row colBig">
+			<div class="col-12 col-lg-2 col-sm-12">
+				<nav class="navbar">
+					<div class="container-fluid">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link text-white" href="#"><h5 class=" p-3">PERSONAJES</h5></a></li>
+							<li class="nav-item"><a class="nav-link text-white" href="#villanos"><h5 class=" p-3 ">VILLANOS</h5></a></li>
+							<li class="nav-item"><a class="nav-link text-white" href="#transformaciones"><h5 class="p-3 ">TRANSFORMACIONES</h5></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+
+			<!--PRODUCTOS-->
+			<div class="col-12 col-sm-10 " >
+				<div class="row filasBloquesAzules">
+					<div
+						class=" card-h-100 col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/goku.png" alt="goku" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Son Goku</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto1.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 me-sm-5 me-lg-0 ms-lg-0 ps-sm-5 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/vegeta.png" alt="vegeta" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Vegeta</h4>
+								<p class="card-text">
+									Un guerrero saiyajin, experto en artes
+									marciales que en su infancia inicia sus viajes y aventuras en
+									las que pone a prueba y mejora sus habilidades de pelea,
+								</p>
+								<a href="producto2.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/KRILIN.png" alt="Krilin" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Krilin</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto3.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 ms-lg-0 ps-sm-5 me-lg-0 ps-lg-0 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/PICOLO.png" alt="picolo" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Picolo</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto4.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0 me-lg-0 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/GOHAN.png" alt="gohan" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Son Gohan</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto5.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 me-lg-0 ms-lg-0 ps-sm-5 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/TRUNK.png" alt="Trunks" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Trunks</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto6.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 titulo2 text-center">
+				<hr>
+				<h2 id="villanos">VILLANOS</h2>
+				<hr>
+			</div>
+		</div>
+		<div class="row colBig">
+			<div class="col-12 col-lg-2 col-sm-12">
+				<nav class="navbar">
+					<div class="container-fluid">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link text-white" href="#personajes"><h5 class=" p-3">PERSONAJES</h5></a>
+							<li class="nav-item"><a class="nav-link text-white" href="#"><h5 class=" p-3 ">VILLANOS</h5></a></li>
+							<li class="nav-item"><a class="nav-link text-white"href="#transformaciones"><h5 class="p-3 ">TRANSFORMACIONES</h5></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+
+			<!--PRODUCTOS-->
+			<div class="col-12 col-sm-10 ">
+				<div class="row filasBloquesAzules">
+					<div
+						class=" card-h-100 col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/FREZER.png" alt="Freeza" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Freeza</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto7.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 me-sm-5 me-lg-0 ms-lg-0 ps-sm-5 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/MAJIN BU.png" alt="MAJIN BUU" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Majin buu</h4>
+								<p class="card-text">
+									Un guerrero saiyajin, experto en artes
+									marciales que en su infancia inicia sus viajes y aventuras en
+									las que pone a prueba y mejora sus habilidades de pelea,
+								</p>
+								<a href="producto8.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/CELL.png" alt="Cell" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">CELL</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto9.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 ms-lg-0 ps-sm-5 me-lg-0 ps-lg-0 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/broly.png" alt="Broly" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Broly</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto10.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0 me-lg-0 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/babidi.png" alt="Babibidi" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Babidi</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto11.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 me-lg-0 ms-lg-0 ps-sm-5 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/popo.png" alt="popo" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Mr Popo</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto12.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-12 titulo2 text-center">
+				<hr>
+				<h2 id="transformaciones">TRANSFORMACIONES</h2>
+				<hr>
+			</div>
+		</div>
+		<div class="row colBig">
+			<div class="col-12 col-lg-2 col-sm-12">
+				<nav class="navbar">
+					<div class="container-fluid">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link text-white" href="#personajes"><h5 class=" p-3">PERSONAJES</h5></a>
+							<li class="nav-item"><a class="nav-link text-white" href="#villanos"><h5 class=" p-3 ">VILLANOS</h5></a></li>
+							<li class="nav-item"><a class="nav-link text-white" href="#"><h5 class="p-3 ">TRANSFORMACIONES</h5></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+
+			<!--PRODUCTOS-->
+			<div class="col-12 col-sm-10 ">
+				<div class="row filasBloquesAzules">
+					<div
+						class=" card-h-100 col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/goku ssj.png" alt="goku ssj" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Goku SSJ</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto13.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 me-sm-5 me-lg-0 ms-lg-0 ps-sm-5 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/goku ssj3.png" alt="goku ssj3" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Goku SSJ3</h4>
+								<p class="card-text">
+									Un guerrero saiyajin, experto en artes
+									marciales que en su infancia inicia sus viajes y aventuras en
+									las que pone a prueba y mejora sus habilidades de pelea,
+								</p>
+								<a href="producto14.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/gokuSSJ4.png" alt="goku ssj4" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Goku SSJ4</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto15.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 ms-lg-0 ps-sm-5 me-lg-0 ps-lg-0 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/vegeta ssj.png" alt="Vegeta ssj" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Vegeta SSJ</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto16.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 me-5 me-sm-5 me-lg-0 me-lg-0 me-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/majin vegeta.png" alt="Majin vegeta" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Majin Vegeta</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto17.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-6 col-sm-4 col-lg-4 bloquesAzules mb-5 ms-sm-5 me-5 me-lg-0 ms-lg-0 ps-sm-5 ps-lg-0">
+						<div class="card" style="width: 16rem">
+							<img class="card-img-top" src="imagenesHtml/vegeta ssj4.png" alt="vegeta ssj4" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title">Vegeta SSJ4</h4>
+									<p class="card-text">
+										Un guerrero saiyajin, experto en artes
+										marciales que en su infancia inicia sus viajes y aventuras en
+										las que pone a prueba y mejora sus habilidades de pelea,
+									</p>
+								<a href="producto18.html" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+	<!--PIE DE PAGINA-->
+	<footer class="container-fluid mt-5">
+		<div class="row">
+			<div class="col-12 piePagina">
+				<h1>@corporationCapsula</h1>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"crossorigin="anonymous"></script>
+</body>
+
+</html>
